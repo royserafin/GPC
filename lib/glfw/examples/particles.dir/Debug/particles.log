@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/GPC/OGLPG-9th-Edition/lib/glfw/examples/CMakeLists.txt
+  CMake does not need to re-run because C:/GPC/Vermilion/lib/glfw/examples/CMakeFiles/generate.stamp is up-to-date.
+  particles.c
+  tinycthread.c
+  getopt.c
+  Generando código...
+  particles.vcxproj -> C:\GPC\OGLPG-9th-Edition\bin\particles.exe
+  particles.vcxproj -> C:/GPC/OGLPG-9th-Edition/bin/particles.pdb (Full PDB)

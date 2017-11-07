@@ -1,0 +1,9 @@
+﻿  simple.c
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(59): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(60): warning C4244: 'función': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(69): warning C4101: 'Rz': variable local sin referencia
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(69): warning C4101: 'Rx': variable local sin referencia
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(69): warning C4101: 'Ry': variable local sin referencia
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(69): warning C4101: 'Rac': variable local sin referencia
+  simple.vcxproj -> C:\GPC\OGLPG-9th-Edition\bin\simple.exe
+  simple.vcxproj -> C:/GPC/OGLPG-9th-Edition/bin/simple.pdb (Full PDB)

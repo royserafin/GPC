@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\GPC\OGLPG-9th-Edition\CMakeLists.txt" />
+    <CustomBuild Include="C:\GPC\Vermilion\CMakeFiles\61ee65b4cdafd0fbb4e2b782c8aa120e\debug.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\GPC\Vermilion\CMakeFiles\debug" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9AFF52E2-6C96-3065-A53E-FF21A4B054DD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

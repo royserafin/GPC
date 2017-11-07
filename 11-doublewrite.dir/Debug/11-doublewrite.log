@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/GPC/OGLPG-9th-Edition/CMakeLists.txt
+  CMake does not need to re-run because C:/GPC/Vermilion/CMakeFiles/generate.stamp is up-to-date.
+  11-doublewrite.cpp
+C:\GPC\OGLPG-9th-Edition\include\vmath.h(1022): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  11-doublewrite.vcxproj -> C:\GPC\OGLPG-9th-Edition\bin\11-doublewrite_d.exe
+  11-doublewrite.vcxproj -> C:/GPC/OGLPG-9th-Edition/bin/11-doublewrite_d.pdb (Full PDB)

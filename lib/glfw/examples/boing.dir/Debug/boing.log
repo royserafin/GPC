@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/GPC/OGLPG-9th-Edition/lib/glfw/examples/CMakeLists.txt
+  CMake does not need to re-run because C:/GPC/Vermilion/lib/glfw/examples/CMakeFiles/generate.stamp is up-to-date.
+  boing.c
+  boing.vcxproj -> C:\GPC\OGLPG-9th-Edition\bin\boing.exe
+  boing.vcxproj -> C:/GPC/OGLPG-9th-Edition/bin/boing.pdb (Full PDB)

@@ -1,0 +1,42 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/GPC/Vermilion/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4a298.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, versi¢n 14.0.25420.1
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilaci¢n iniciada a las 12/10/2017 02:10:47 p. m..
+El destino "_ConvertPdbFiles" que aparece en un atributo BeforeTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)" no existe en el proyecto y se omitir .
+El destino "_CollectPdbFiles" que aparece en un atributo AfterTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)" no existe en el proyecto y se omitir .
+El destino "_CollectMdbFiles" que aparece en un atributo BeforeTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)" no existe en el proyecto y se omitir .
+El destino "_CopyMdbFiles" que aparece en un atributo AfterTargets en "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)" no existe en el proyecto y se omitir .
+Proyecto "C:\GPC\Vermilion\CMakeFiles\CMakeTmp\cmTC_4a298.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_4a298.dir\Debug\".
+  Creando directorio "C:\GPC\Vermilion\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_4a298.dir\Debug\cmTC_4a298.tlog\".
+InitializeBuildStatus:
+  Se crear  "cmTC_4a298.dir\Debug\cmTC_4a298.tlog\unsuccessfulbuild" porque se especific¢ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_4a298.dir\Debug\\" /Fd"cmTC_4a298.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\GPC\Vermilion\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Compilador de optimizaci¢n de C/C++ de Microsoft (R) versi¢n 19.00.24215.1 para x86
+  (C) Microsoft Corporation. Reservados todos los derechos.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_4a298.dir\Debug\\" /Fd"cmTC_4a298.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\GPC\Vermilion\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\GPC\Vermilion\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\GPC\Vermilion\CMakeFiles\CMakeTmp\cmTC_4a298.vcxproj]
+Compilaci¢n del proyecto terminada "C:\GPC\Vermilion\CMakeFiles\CMakeTmp\cmTC_4a298.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\GPC\Vermilion\CMakeFiles\CMakeTmp\cmTC_4a298.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\GPC\Vermilion\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: No se puede abrir el archivo incluir: 'pthread.h': No such file or directory [C:\GPC\Vermilion\CMakeFiles\CMakeTmp\cmTC_4a298.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.57
+
+

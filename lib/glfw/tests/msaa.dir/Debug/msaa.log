@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/GPC/OGLPG-9th-Edition/lib/glfw/tests/CMakeLists.txt
+  CMake does not need to re-run because C:/GPC/Vermilion/lib/glfw/tests/CMakeFiles/generate.stamp is up-to-date.
+  msaa.c
+  getopt.c
+  Generando código...
+  msaa.vcxproj -> C:\GPC\OGLPG-9th-Edition\bin\msaa.exe
+  msaa.vcxproj -> C:/GPC/OGLPG-9th-Edition/bin/msaa.pdb (Full PDB)

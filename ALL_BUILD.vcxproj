@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8A1493E8-F583-3D9E-B52E-306A52C896B9}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\GPC\OGLPG-9th-Edition\include;C:\GPC\OGLPG-9th-Edition\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\GPC\OGLPG-9th-Edition\include;C:\GPC\OGLPG-9th-Edition\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\GPC\OGLPG-9th-Edition\include;C:\GPC\OGLPG-9th-Edition\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\GPC\OGLPG-9th-Edition\include;C:\GPC\OGLPG-9th-Edition\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\GPC\OGLPG-9th-Edition\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/GPC/OGLPG-9th-Edition/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/GPC/OGLPG-9th-Edition -BC:/GPC/Vermilion --check-stamp-file C:/GPC/Vermilion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/GPC/OGLPG-9th-Edition/CMakeLists.txt;C:\GPC\OGLPG-9th-Edition\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystem.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\GPC\Vermilion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/GPC/OGLPG-9th-Edition/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/GPC/OGLPG-9th-Edition -BC:/GPC/Vermilion --check-stamp-file C:/GPC/Vermilion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/GPC/OGLPG-9th-Edition/CMakeLists.txt;C:\GPC\OGLPG-9th-Edition\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystem.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\GPC\Vermilion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/GPC/OGLPG-9th-Edition/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/GPC/OGLPG-9th-Edition -BC:/GPC/Vermilion --check-stamp-file C:/GPC/Vermilion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/GPC/OGLPG-9th-Edition/CMakeLists.txt;C:\GPC\OGLPG-9th-Edition\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystem.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\GPC\Vermilion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/GPC/OGLPG-9th-Edition/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/GPC/OGLPG-9th-Edition -BC:/GPC/Vermilion --check-stamp-file C:/GPC/Vermilion/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/GPC/OGLPG-9th-Edition/CMakeLists.txt;C:\GPC\OGLPG-9th-Edition\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystem.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\GPC\Vermilion\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompiler.cmake.in;C:\GPC\Vermilion\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseImplicitLinkInfo.cmake;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPTryFlag.c;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPTryFlag.cpp;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\GPC\Vermilion\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\GPC\OGLPG-9th-Edition\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\GPC\Vermilion\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\GPC\Vermilion\ZERO_CHECK.vcxproj">
+      <Project>{CF0E034F-AE06-3774-B89B-350841E64400}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\01-keypress.vcxproj">
+      <Project>{2ED5D00A-1C4F-34A2-9319-D393CEC4B581}</Project>
+      <Name>01-keypress</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\01-triangles.vcxproj">
+      <Project>{6EAAFA70-9B56-345F-920A-E4E541D6065B}</Project>
+      <Name>01-triangles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\03-drawcommands.vcxproj">
+      <Project>{F312981F-A729-3D74-A753-A3CD72E3B93C}</Project>
+      <Name>03-drawcommands</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\03-instancing.vcxproj">
+      <Project>{CE0CD885-C0ED-33DD-B1C2-4189F8AE4414}</Project>
+      <Name>03-instancing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\03-instancing2.vcxproj">
+      <Project>{CE65273A-2A67-3A0C-A3FC-DAC6554FE392}</Project>
+      <Name>03-instancing2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\03-instancing3.vcxproj">
+      <Project>{DEB40525-482F-349A-895D-1D2FFE227516}</Project>
+      <Name>03-instancing3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\03-pointsprites.vcxproj">
+      <Project>{14ADED6D-ADCE-36EA-A542-BCD3B7BE455C}</Project>
+      <Name>03-pointsprites</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\03-primitiverestart.vcxproj">
+      <Project>{2072EF49-8547-396E-A821-F66199896F23}</Project>
+      <Name>03-primitiverestart</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\03-xfb.vcxproj">
+      <Project>{61A118E0-40D9-3DA4-8DA6-BF7CDB177F59}</Project>
+      <Name>03-xfb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\04-gouraud.vcxproj">
+      <Project>{770D9C22-8C61-3CA5-8502-A017B7398B05}</Project>
+      <Name>04-gouraud</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\04-gouraud-float.vcxproj">
+      <Project>{4F7C92CC-3080-363A-BD4B-62C181BF345E}</Project>
+      <Name>04-gouraud-float</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\04-shadowmap.vcxproj">
+      <Project>{A812856C-594C-366F-A7C6-5E751DC98F4F}</Project>
+      <Name>04-shadowmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\06-cubemap.vcxproj">
+      <Project>{21D0F28C-88FD-352B-B8D3-2300D1B43056}</Project>
+      <Name>06-cubemap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\06-load-texture.vcxproj">
+      <Project>{4903E85A-DD05-37E1-8833-0AB36BC0DAA1}</Project>
+      <Name>06-load-texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\06-mipfilters.vcxproj">
+      <Project>{B7B05153-D794-34F2-87DA-08C1A1B0F26E}</Project>
+      <Name>06-mipfilters</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\06-multitexture.vcxproj">
+      <Project>{391E4ED7-716A-3F66-BE0B-B3C6226E5AE6}</Project>
+      <Name>06-multitexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\06-statictexture.vcxproj">
+      <Project>{B272A6D8-97D9-3C42-9E6D-6EBBD85E2004}</Project>
+      <Name>06-statictexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\06-texturewrapping.vcxproj">
+      <Project>{224385AF-DBE3-3013-9616-0A2E87806AE1}</Project>
+      <Name>06-texturewrapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\06-volumetexturing.vcxproj">
+      <Project>{9AD3D280-DEDB-3CCC-8CDB-E7093BB35EDC}</Project>
+      <Name>06-volumetexturing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\08-lightmodels.vcxproj">
+      <Project>{E9218E85-3D67-3041-9501-01C477FE98D9}</Project>
+      <Name>08-lightmodels</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\09-simpletess.vcxproj">
+      <Project>{D6E7CD4E-07C8-31D1-B72A-80F4CEF49B82}</Project>
+      <Name>09-simpletess</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\09-teapot.vcxproj">
+      <Project>{7889EFA4-CC23-32FF-BF00-3003AFED4681}</Project>
+      <Name>09-teapot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\10-draw-xfb.vcxproj">
+      <Project>{8403E058-EC85-3940-8743-46B32F3131B5}</Project>
+      <Name>10-draw-xfb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\10-fur.vcxproj">
+      <Project>{8482B7BE-227A-3443-80C6-ADC71EEF4FFE}</Project>
+      <Name>10-fur</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\10-viewport-array.vcxproj">
+      <Project>{52DE455C-D811-374D-8F57-FCCFEF135CE3}</Project>
+      <Name>10-viewport-array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\11-doublewrite.vcxproj">
+      <Project>{3FEF4FD3-821B-3F8A-A9B2-31195E1B4EDA}</Project>
+      <Name>11-doublewrite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\11-oit.vcxproj">
+      <Project>{F5195DBD-911F-3257-A24B-557D935ED968}</Project>
+      <Name>11-oit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\11-overdrawcount.vcxproj">
+      <Project>{3700558D-2839-39AA-BAAA-EB06A8A9AAD8}</Project>
+      <Name>11-overdrawcount</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\12-imageprocessing.vcxproj">
+      <Project>{DCD98CB2-D822-307B-8EF3-6FA43F02D50B}</Project>
+      <Name>12-imageprocessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\12-particlesimulator.vcxproj">
+      <Project>{BAAED69F-E5D2-3CEF-811A-22764801B9AA}</Project>
+      <Name>12-particlesimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\12-raytracer.vcxproj">
+      <Project>{731C9186-0415-301E-A1A6-76E168B47D00}</Project>
+      <Name>12-raytracer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\12-simplecompute.vcxproj">
+      <Project>{CEE789C6-715E-30CF-89C5-973EB4F497FC}</Project>
+      <Name>12-simplecompute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\examples\boing.vcxproj">
+      <Project>{94C08410-CD58-398E-9E69-A10EEDC6D271}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\clipboard.vcxproj">
+      <Project>{AAC9C4FD-06D3-3465-BD1F-AE10DCC64BB5}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\cursor.vcxproj">
+      <Project>{35474F26-F4CD-3700-A91D-253293B85237}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\empty.vcxproj">
+      <Project>{C6AACBBA-865C-373F-A07F-A6091819DF44}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\events.vcxproj">
+      <Project>{413C78B0-877C-3C6B-9A94-4EF788ED6812}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\gamma.vcxproj">
+      <Project>{DDAFF17E-707A-3B2A-A861-EE8AB009B667}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\examples\gears.vcxproj">
+      <Project>{8DE5E9F8-7004-3CBE-B2DD-BA614DEAC6AC}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\src\glfw.vcxproj">
+      <Project>{3B4B1367-D176-331A-849B-BB7742A7D194}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\glfwinfo.vcxproj">
+      <Project>{0A47A4E3-5BDB-391C-A2D8-B09DE698E6FB}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\examples\heightmap.vcxproj">
+      <Project>{E8793015-6FF3-3085-B263-65B804D0DEFB}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\iconify.vcxproj">
+      <Project>{A08F045D-9D1F-3E6A-8670-63ABC64B7764}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\joysticks.vcxproj">
+      <Project>{09D7EB5B-CD51-3D4F-B7D4-ED033CC9297D}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\monitors.vcxproj">
+      <Project>{2A981DC5-9B75-3127-A696-D87F872F460E}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\msaa.vcxproj">
+      <Project>{11591A7B-93CB-37B7-AB84-D84CACA06C95}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\examples\particles.vcxproj">
+      <Project>{B6B0BAF0-D558-3E9A-8951-1D90DCDE8BA5}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\reopen.vcxproj">
+      <Project>{E7862609-2E65-30DE-9F04-97AC93062923}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\sharing.vcxproj">
+      <Project>{44341286-25F0-3D78-8C9F-15396C7B4975}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\examples\simple.vcxproj">
+      <Project>{A8F38039-2A39-3993-B322-02574E23519F}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\examples\splitview.vcxproj">
+      <Project>{5FEEFF96-0CC8-3C2D-B534-3AF1A9398440}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\tearing.vcxproj">
+      <Project>{294A1A5B-0840-3F76-8354-125D6383D433}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\threads.vcxproj">
+      <Project>{36462F3E-D95D-3B9B-88D7-4D42A63EF3E8}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\title.vcxproj">
+      <Project>{4A5A6868-72C6-3307-A70B-B35E2255B192}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\vermilion.vcxproj">
+      <Project>{1EB1D34F-4797-3A6F-9895-EE68FA59720D}</Project>
+      <Name>vermilion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\examples\wave.vcxproj">
+      <Project>{FFC49297-BD51-37C4-A5A1-371111585A9B}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\GPC\Vermilion\lib\glfw\tests\windows.vcxproj">
+      <Project>{809170E8-BA55-3571-AD1C-F97DADC6B1B1}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

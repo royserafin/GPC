@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/GPC/OGLPG-9th-Edition/CMakeLists.txt
+  CMake does not need to re-run because C:/GPC/Vermilion/CMakeFiles/generate.stamp is up-to-date.
+  09-teapot.cpp
+C:\GPC\OGLPG-9th-Edition\include\Shapes/Teapot.h(325): warning C4838: la conversión de 'double' en 'const float' requiere una conversión de restricción
+C:\GPC\OGLPG-9th-Edition\include\Shapes/Teapot.h(325): warning C4305: 'inicializando': truncamiento de 'double' a 'const float'
+  09-teapot.vcxproj -> C:\GPC\OGLPG-9th-Edition\bin\09-teapot_d.exe
+  09-teapot.vcxproj -> C:/GPC/OGLPG-9th-Edition/bin/09-teapot_d.pdb (Full PDB)
