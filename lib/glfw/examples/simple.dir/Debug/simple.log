@@ -1,8 +1,10 @@
 ﻿  simple.c
-C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(461): warning C4305: 'función': truncamiento de 'double' a 'float'
-C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(463): warning C4047: 'función': 'const GLfloat *' es distinto en los niveles de direccionamiento indirecto de 'mat4x4'
-C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(463): warning C4024: 'glMultMatrixf': tipos distintos para el parámetro formal y el parámetro real 1
-C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(500): warning C4047: 'función': 'const GLfloat *' es distinto en los niveles de direccionamiento indirecto de 'mat4x4'
-C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(500): warning C4024: 'glMultMatrixf': tipos distintos para el parámetro formal y el parámetro real 1
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(293): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(310): warning C4047: 'función': 'const GLfloat *' es distinto en los niveles de direccionamiento indirecto de 'mat4x4'
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(310): warning C4024: 'glMultMatrixf': tipos distintos para el parámetro formal y el parámetro real 1
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(346): warning C4047: 'función': 'const GLfloat *' es distinto en los niveles de direccionamiento indirecto de 'mat4x4'
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(346): warning C4024: 'glMultMatrixf': tipos distintos para el parámetro formal y el parámetro real 1
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(350): warning C4047: 'función': 'const GLfloat *' es distinto en los niveles de direccionamiento indirecto de 'mat4x4'
+C:\GPC\OGLPG-9th-Edition\lib\glfw\examples\simple.c(350): warning C4024: 'glMultMatrixf': tipos distintos para el parámetro formal y el parámetro real 1
   simple.vcxproj -> C:\GPC\OGLPG-9th-Edition\bin\simple.exe
   simple.vcxproj -> C:/GPC/OGLPG-9th-Edition/bin/simple.pdb (Full PDB)
